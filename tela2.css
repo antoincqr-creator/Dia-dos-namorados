@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* fundo */
+.background{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    background-size: 600px ;
+    background-position: center;
+    background-repeat: repeat;
+
+    z-index: 0;
+}
+
+/* escurecer fundo */
+.background::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+/* conteúdo */
+.conteudo{
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    z-index: 1;
+}
+
+/* mensagem */
+.mensagem{
+   /* background: rgba(255, 105, 180, 0.7);*/
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+
+    max-width: 600px;
+    line-height: 1.6;
+}
