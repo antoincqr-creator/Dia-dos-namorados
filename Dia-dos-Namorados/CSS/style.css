@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(222, 233, 66);
+}
+#mensagem{
+    text-align: center;
+    justify-content: center;
+}
+spam{
+    font-size: 21px;
+}
+p{
+    font-size: 21px;
+}
+label{
+    font-size: 21px;
+}
+h1{
+    font-size: 50px
+}
+h2{
+    font-size:26px
+}
